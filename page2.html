@@ -7,11 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>4 page website</title>
 
-    <link rel="stylesheet" href="css/page1.css">
+    <link rel="stylesheet" href="css/page2.css">
 
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+
 
 </head>
 
@@ -45,31 +47,45 @@
 
     </section>
 
-    <section id="heading">
+    <section id="entire-form">
+        <form method="post">
+            <fieldset>
+                <legend>hi</legend>
 
-        <h1>hello my name is randy</h1>
+                <section id="user-info'">
+                    <div>
+                        <label for="firstName">First Name</label><br>
+                        <input type="text" name="first_name" id="firstName">
+                    </div>
 
+                    <div>
+                        <label for="lastName">Last Name</label><br>
+                        <input type="text" name="last_name" id="lastName">
+                    </div>
+
+                </section>
+                <section id="">
+                <div>
+                    <label for="checkbox">Are you real?</label>
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                </div>
+            </section>
+
+            <section id="textbox">
+                <div>
+                    <label for="additional_info">Additional Information</label><br>
+                    <textarea name="info" id="additional_info" cols="30" rows="10"></textarea>
+                </div>
+
+            </section>
+
+                <div>
+                    <button>Confirm</button>
+                </div>
+
+            </fieldset>
+        </form>
     </section>
-
-    <section id="sub-heading">
-        <div>
-        <h2>this is h2 1</h2>
-    </div>
-    <div>
-        <h2>this is h2 1</h2>
-    </div>
-    <div>
-        <h2>this is h2 1</h2>
-    </div>
-
-    </section>
-
-    <section id="image">
-
-        <img src="" alt="">
-
-    </section>
-
 
 </body>
 
