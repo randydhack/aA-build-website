@@ -4,7 +4,7 @@ body {
 }
 
 .navbar-brand {
-    margin-left: 60px;
+    padding: 0 40px 0;
 
 }
 
@@ -20,4 +20,18 @@ body {
 
     display: flex;
     flex-direction: column;
+}
+
+.pokemons__row-1 {
+
+    width: 200px;
+    height: 200px;
+
+}
+
+.pokemons__row-2 {
+
+    width: 200px;
+    height: 200px;
+
 }

@@ -9,6 +9,11 @@ h1 {
     color: white;
 }
 
+h2 {
+
+    color: white;
+}
+
 h3 {
 
     color: white;
@@ -19,6 +24,10 @@ h6 {
     color: white;
 }
 
+p {
+    color: white;
+}
+
 footer {
 
     padding: 25px 0 25px;
@@ -26,8 +35,7 @@ footer {
 }
 
 #heading {
-    position: relative;
-    padding: 100px 0 100px;
+    padding: 100px 0 0px;
     background-color: black;
 }
 
@@ -38,16 +46,22 @@ footer {
 }
 
 .camera {
-
-    background-image: url(https://s7d1.scene7.com/is/image/canon/R6-front:16-9-Large?wid=1728&hei=972&fmt=webp-alpha);
-    width: 500px;
-    height: 300px;
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin-top: 30px;
     top: 100px;
+    transform: rotate(85deg);
+    z-index: 0;
 }
 
 #sub-heading {
+    position: relative;
+    background-color: white;
+    z-index: 1;
+    padding:25px;
+    background-image: url(https://wallpaperaccess.com/full/123112.jpg);
 
-    padding-top: 25px;
 }
 
 .sub-heading-first {
@@ -62,7 +76,7 @@ footer {
 }
 
 .navbar-brand {
-    margin-left: 60px;
+    padding: 0 40px 0;
 
 }
 

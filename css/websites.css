@@ -1,5 +1,5 @@
 .navbar-brand {
-    margin-left: 60px;
+    padding: 0 40px 0;
 
 }
 
@@ -9,4 +9,14 @@
 
 .nav-link {
     font-size: 18px;
+}
+
+.fa-youtube {
+
+    color: red;
+}
+
+.youtube {
+
+    padding: 0 8px 0;
 }
