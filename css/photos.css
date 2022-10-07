@@ -22,6 +22,10 @@ body {
     flex-direction: column;
 }
 
+#pokemons {
+
+}
+
 .pokemons__row-1 {
 
     width: 200px;

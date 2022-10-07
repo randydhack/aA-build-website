@@ -1,5 +1,6 @@
 #entire-form {
     text-align: center;
+    margin-top: 50px;
 
 }
 
@@ -14,11 +15,4 @@
 
 .nav-link {
     font-size: 18px;
-}
-
-
-.user-info {
-
-    display: flex;
-    flex-direction: column;
 }
